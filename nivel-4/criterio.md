@@ -12,7 +12,7 @@ Margen mínimo: 0.500000
 - **Margen a precio de carta actual:** va de 0,4668 (P33) a 0,6892 (P34).
 - **Código:** `nivel-4/codigo/reposicion.py` calcula los costos y escribe `nivel-4/analisis.csv`. `nivel-4/codigo/decidir.py` aplica esta regla a los 50 platos y escribe `decisiones.json`.
 
-## 2. Margen mínimo: 0,50
+## 2. Por qué el mínimo es 0,50
 
 El margen es de ingredientes: `(precio_nuevo − costo_actualizado) / precio_nuevo`. Exigimos que como mínimo la mitad del precio quede después de pagar ingredientes a costo de reposición.
 
@@ -28,7 +28,7 @@ Por qué 0,50:
    - de la casa, por identidad: P01, P11 y P25;
    - única opción vegetariana: P48;
    - única opción sin TACC, con circuito dedicado: P50.
-2. **Retiros.** Entre los 45 no protegidos salen los 10 con menor contribución del trimestre a costo de reposición. Contribución = unidades vendidas netas ago–oct (de caja, nivel 3) × (precio de carta − costo de reposición). Es el aporte en pesos que el plato habría dejado con el costo nuevo y el volumen ya vendido. Usamos las ventas reales como medida de lo que cada plato aporta. No es una proyección.
+2. **Retiros.** Entre los 45 no protegidos salen los 10 con menor contribución del trimestre a costo de reposición. Contribución = unidades vendidas netas ago–oct (de caja, nivel 3) × (precio de carta − costo de reposición). Es el aporte en pesos que el plato habría dejado con el costo nuevo y el volumen ya vendido. Las unidades son ventas reales. La contribución es un recálculo de esas ventas con costo de reposición: es un indicador para comparar platos, no una ganancia realizada. La valoración histórica real está en `nivel-3/margenes.csv`.
 3. **Platos que continúan.**
    - Si su margen al precio de carta es ≥ 0,50: se **mantiene** el precio.
    - Si no: se **sube** al menor múltiplo de $100 que deja margen ≥ 0,50 con un colchón del 1 % sobre el costo, es decir precio ≥ costo × 1,01 / 0,50.
@@ -73,10 +73,22 @@ Entre los diez suman 5.124 unidades, el 8,4 % de las 61.139 del trimestre, y $22
   - S03 queda en P10 y P27;
   - S09 queda en P05 y P15.
   
+  Hay dos insumos que quedan en un solo plato, y lo aceptamos como consecuencia:
+  - el atún (C07) queda solo en P15, porque sale P36;
+  - el aliño de limón (S12) queda solo en P46, porque sale P33.
+  
   Como la carta mantiene el mismo set de bases, el trabajo de mise en place no crece. Baja la cantidad de variantes finales para el pase. Las 50 fichas son de cocina caliente, así que no hay una estación que quede vacía o sobrecargada.
 - **Insumos compartidos.** Los ocho productos del Frigorífico siguen en uso en varios platos, así que no queda stock sin destino. La compra de merluza, atún, pollo y jamón baja en volumen, pero no se discontinúa.
-- **Alérgenos y condiciones alimentarias.**
-  - Siguen la opción vegetariana (P48) y la sin TACC (P50).
+- **Alérgenos (conteo de platos, carta actual → carta de 40).**
+  - Sin gluten: 2 → 2 (P48 y P50).
+  - Sin leche: 8 → 7 (sale P45).
+  - Sin huevo: 41 → 33.
+  - Sin pescado: 41 → 35.
+  
+  Todas las alternativas para cada alérgeno siguen en la carta.
+- **Trabajo de cocina.** Las fichas no traen tiempos ni carga por plato, y no hay costos de personal. Por eso el trabajo de cocina se mide solo por lo que se puede ver en las fichas: estación y subrecetas compartidas. Es una limitación del dato, no una conclusión.
+- **Condiciones alimentarias.**
+  - Siguen la opción vegetariana (P48) y la sin TACC (P50). P48 no tiene ingredientes con gluten, pero no está declarado sin TACC: el único con circuito dedicado es P50.
   - Con pescado quedan cinco platos: P08, P15, P17, P44 y P50.
   - Con arroz quedan P05, P15, P43 y P21.
   - No se pierde ninguna categoría de la carta.
@@ -90,12 +102,17 @@ Entre los diez suman 5.124 unidades, el 8,4 % de las 61.139 del trimestre, y $22
 - Salen los platos de menor aporte. Siete de los diez vendían menos de 500 unidades en el trimestre.
 
 **Resignamos:**
-- El 6,3 % de la contribución trimestral medida y el 8,4 % de las unidades. Parte de esos clientes podría pasarse a otro plato, pero eso es una **hipótesis**, no una venta realizada.
+- El 6,3 % de la contribución recalculada (no realizada) del trimestre y el 8,4 % de las unidades. Parte de esos clientes podría pasarse a otro plato, pero eso es una **hipótesis**, no una venta realizada.
 - Retiramos platos con margen alto pero poco volumen, como P34 (0,689) y P31 (0,630), porque aportan poco en pesos.
 - Mantenemos P48, que tiene una contribución baja, por ser la única opción vegetariana.
 - Los aumentos pueden reducir las ventas de esos 6 platos. No tenemos datos de elasticidad, así que no lo estimamos. Con el colchón del 1 %, cada uno sigue sobre 0,50 aunque su costo suba hasta 1 % más.
+
+**Qué tan firme es el corte:** el 10.º retirado (P36, $3,45 M) y el 11.º (P17, $3,49 M) están separados por apenas 1,3 %. La regla los ordena igual, pero con otro volumen podrían intercambiarse.
+
+**Por qué ordenar por contribución y no por margen:** el margen en porcentaje se corrige con precio, como muestran los 6 aumentos. Lo que un plato aporta en pesos depende de cuánto se vende, y eso no se corrige subiendo el precio. Por eso retiramos lo que menos aporta y ajustamos el precio de lo que aporta pero quedó bajo el mínimo.
 
 **Hipótesis (no verificadas, no son ventas):**
 - Usar las ventas de ago–oct como medida del aporte de cada plato supone que la mezcla de demanda se parece en el próximo servicio.
 - Los aumentos no cambian el volumen.
 - No consideramos costos de personal por plato porque no hay datos.
+- El colchón del 1 % es una protección contra pequeñas variaciones de costo. No es una predicción de cuánto va a subir el costo.

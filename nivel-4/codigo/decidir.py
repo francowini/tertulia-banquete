@@ -21,18 +21,20 @@ def main(an, M, regla, out):
     for r in R:
         base = (f"Costo de reposición ${r['cr']:.2f} (Frigorífico +18%: {r['productos_muelle'] or 'no usa'}); "
                 f"margen a precio de carta ${r['pc']:.0f}: {r['mg']:.4f}; ventas ago–oct: {r['u']} u, "
-                f"contribución trimestral a costo de reposición ${r['contrib']:,.0f}.")
+                f"contribución recalculada (no realizada) de esas ventas a costo de reposición ${r['contrib']:,.0f}.")
         if r['plato'] in sacar:
             d, p = 'sacar', None
             pos = sorted([x for x in R if not x['prot']], key=clave).index(r) + 1
-            f = f"Se retira: puesto {pos} de 10 entre los no protegidos por menor {'margen' if regla=='margen' else 'contribución'}. " + base
+            f = (f"Se retira: puesto {pos} de 10 entre los no protegidos por menor {'margen' if regla=='margen' else 'contribución'}. " + base +
+                 f" Resignamos sus {r['u']} u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno.")
         elif r['mg'] >= M:
             d, p = 'mantener', float(r['pc'])
-            f = f"Se mantiene: margen {r['mg']:.4f} ≥ mínimo {M}. " + base + (f" Protegido: {', '.join(r['prot'])}." if r['prot'] else '')
+            f = (f"Se mantiene: margen {r['mg']:.4f} ≥ mínimo {M}. " + base + (f" Protegido: {', '.join(r['prot'])}." if r['prot'] else '') +
+                 " Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso.")
         else:
             p = D(math.ceil(r['cr'] * D('1.01') / (1 - M) / 100) * 100); d = 'subir'
             f = (f"Sube de ${r['pc']:.0f} a ${p:.0f} (+{(p/r['pc']-1)*100:.1f}%): margen nuevo {(p-r['cr'])/p:.4f} ≥ {M}. " + base +
-                 (f" Protegido: {', '.join(r['prot'])}." if r['prot'] else '') + " Efecto en ventas: hipótesis no verificada (sin datos de elasticidad).")
+                 (f" Protegido: {', '.join(r['prot'])}." if r['prot'] else '') + " Ganamos: vuelve al mínimo sin retirarlo. Resignamos: posible baja de ventas por el aumento (hipótesis no verificada, sin datos de elasticidad).")
             p = float(p)
         if p is not None: assert (D(str(p)) - r['cr']) / D(str(p)) >= M
         dec.append(dict(plato=r['plato'], decision=d, precio_nuevo=p, fundamento=f))

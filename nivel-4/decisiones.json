@@ -3,300 +3,300 @@
     "plato": "P01",
     "decision": "mantener",
     "precio_nuevo": 9900.0,
-    "fundamento": "Se mantiene: margen 0.6265 ≥ mínimo 0.50. Costo de reposición $3697.17 (Frigorífico +18%: C01); margen a precio de carta $9900: 0.6265; ventas ago–oct: 1066 u, contribución trimestral a costo de reposición $6,612,217. Protegido: plato de la casa."
+    "fundamento": "Se mantiene: margen 0.6265 ≥ mínimo 0.50. Costo de reposición $3697.17 (Frigorífico +18%: C01); margen a precio de carta $9900: 0.6265; ventas ago–oct: 1066 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $6,612,217. Protegido: plato de la casa. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P02",
     "decision": "mantener",
     "precio_nuevo": 4000.0,
-    "fundamento": "Se mantiene: margen 0.5942 ≥ mínimo 0.50. Costo de reposición $1623.33 (Frigorífico +18%: C08); margen a precio de carta $4000: 0.5942; ventas ago–oct: 1958 u, contribución trimestral a costo de reposición $4,653,520."
+    "fundamento": "Se mantiene: margen 0.5942 ≥ mínimo 0.50. Costo de reposición $1623.33 (Frigorífico +18%: C08); margen a precio de carta $4000: 0.5942; ventas ago–oct: 1958 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $4,653,520. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P03",
     "decision": "mantener",
     "precio_nuevo": 4700.0,
-    "fundamento": "Se mantiene: margen 0.5167 ≥ mínimo 0.50. Costo de reposición $2271.73 (Frigorífico +18%: C05); margen a precio de carta $4700: 0.5167; ventas ago–oct: 1489 u, contribución trimestral a costo de reposición $3,615,694."
+    "fundamento": "Se mantiene: margen 0.5167 ≥ mínimo 0.50. Costo de reposición $2271.73 (Frigorífico +18%: C05); margen a precio de carta $4700: 0.5167; ventas ago–oct: 1489 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $3,615,694. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P04",
     "decision": "mantener",
     "precio_nuevo": 13000.0,
-    "fundamento": "Se mantiene: margen 0.6892 ≥ mínimo 0.50. Costo de reposición $4040.88 (Frigorífico +18%: C01+C08); margen a precio de carta $13000: 0.6892; ventas ago–oct: 2253 u, contribución trimestral a costo de reposición $20,184,897."
+    "fundamento": "Se mantiene: margen 0.6892 ≥ mínimo 0.50. Costo de reposición $4040.88 (Frigorífico +18%: C01+C08); margen a precio de carta $13000: 0.6892; ventas ago–oct: 2253 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $20,184,897. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P05",
     "decision": "mantener",
     "precio_nuevo": 7600.0,
-    "fundamento": "Se mantiene: margen 0.5933 ≥ mínimo 0.50. Costo de reposición $3090.60 (Frigorífico +18%: C01); margen a precio de carta $7600: 0.5933; ventas ago–oct: 1779 u, contribución trimestral a costo de reposición $8,022,223."
+    "fundamento": "Se mantiene: margen 0.5933 ≥ mínimo 0.50. Costo de reposición $3090.60 (Frigorífico +18%: C01); margen a precio de carta $7600: 0.5933; ventas ago–oct: 1779 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $8,022,223. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P06",
     "decision": "mantener",
     "precio_nuevo": 11900.0,
-    "fundamento": "Se mantiene: margen 0.6163 ≥ mínimo 0.50. Costo de reposición $4566.06 (Frigorífico +18%: C01+C02+C03); margen a precio de carta $11900: 0.6163; ventas ago–oct: 1339 u, contribución trimestral a costo de reposición $9,820,146."
+    "fundamento": "Se mantiene: margen 0.6163 ≥ mínimo 0.50. Costo de reposición $4566.06 (Frigorífico +18%: C01+C02+C03); margen a precio de carta $11900: 0.6163; ventas ago–oct: 1339 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $9,820,146. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P07",
     "decision": "mantener",
     "precio_nuevo": 13500.0,
-    "fundamento": "Se mantiene: margen 0.5515 ≥ mínimo 0.50. Costo de reposición $6054.22 (Frigorífico +18%: C02); margen a precio de carta $13500: 0.5515; ventas ago–oct: 1410 u, contribución trimestral a costo de reposición $10,498,550."
+    "fundamento": "Se mantiene: margen 0.5515 ≥ mínimo 0.50. Costo de reposición $6054.22 (Frigorífico +18%: C02); margen a precio de carta $13500: 0.5515; ventas ago–oct: 1410 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $10,498,550. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P08",
     "decision": "subir",
     "precio_nuevo": 9900.0,
-    "fundamento": "Sube de $9400 a $9900 (+5.3%): margen nuevo 0.5077 ≥ 0.50. Costo de reposición $4874.21 (Frigorífico +18%: C04); margen a precio de carta $9400: 0.4815; ventas ago–oct: 1690 u, contribución trimestral a costo de reposición $7,648,585. Efecto en ventas: hipótesis no verificada (sin datos de elasticidad)."
+    "fundamento": "Sube de $9400 a $9900 (+5.3%): margen nuevo 0.5077 ≥ 0.50. Costo de reposición $4874.21 (Frigorífico +18%: C04); margen a precio de carta $9400: 0.4815; ventas ago–oct: 1690 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $7,648,585. Ganamos: vuelve al mínimo sin retirarlo. Resignamos: posible baja de ventas por el aumento (hipótesis no verificada, sin datos de elasticidad)."
   },
   {
     "plato": "P09",
     "decision": "mantener",
     "precio_nuevo": 8200.0,
-    "fundamento": "Se mantiene: margen 0.6851 ≥ mínimo 0.50. Costo de reposición $2582.33 (Frigorífico +18%: C01+C06); margen a precio de carta $8200: 0.6851; ventas ago–oct: 1173 u, contribución trimestral a costo de reposición $6,589,527."
+    "fundamento": "Se mantiene: margen 0.6851 ≥ mínimo 0.50. Costo de reposición $2582.33 (Frigorífico +18%: C01+C06); margen a precio de carta $8200: 0.6851; ventas ago–oct: 1173 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $6,589,527. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P10",
     "decision": "mantener",
     "precio_nuevo": 11600.0,
-    "fundamento": "Se mantiene: margen 0.5912 ≥ mínimo 0.50. Costo de reposición $4742.14 (Frigorífico +18%: C01+C02); margen a precio de carta $11600: 0.5912; ventas ago–oct: 2006 u, contribución trimestral a costo de reposición $13,756,867."
+    "fundamento": "Se mantiene: margen 0.5912 ≥ mínimo 0.50. Costo de reposición $4742.14 (Frigorífico +18%: C01+C02); margen a precio de carta $11600: 0.5912; ventas ago–oct: 2006 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $13,756,867. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P11",
     "decision": "mantener",
     "precio_nuevo": 14900.0,
-    "fundamento": "Se mantiene: margen 0.6197 ≥ mínimo 0.50. Costo de reposición $5666.78 (Frigorífico +18%: C01+C02+C03); margen a precio de carta $14900: 0.6197; ventas ago–oct: 1497 u, contribución trimestral a costo de reposición $13,822,130. Protegido: plato de la casa."
+    "fundamento": "Se mantiene: margen 0.6197 ≥ mínimo 0.50. Costo de reposición $5666.78 (Frigorífico +18%: C01+C02+C03); margen a precio de carta $14900: 0.6197; ventas ago–oct: 1497 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $13,822,130. Protegido: plato de la casa. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P12",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 4 de 10 entre los no protegidos por menor contribución. Costo de reposición $3566.19 (Frigorífico +18%: C01); margen a precio de carta $8000: 0.5542; ventas ago–oct: 343 u, contribución trimestral a costo de reposición $1,520,797."
+    "fundamento": "Se retira: puesto 4 de 10 entre los no protegidos por menor contribución. Costo de reposición $3566.19 (Frigorífico +18%: C01); margen a precio de carta $8000: 0.5542; ventas ago–oct: 343 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $1,520,797. Resignamos sus 343 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P13",
     "decision": "subir",
     "precio_nuevo": 11800.0,
-    "fundamento": "Sube de $11100 a $11800 (+6.3%): margen nuevo 0.5084 ≥ 0.50. Costo de reposición $5800.86 (Frigorífico +18%: C02); margen a precio de carta $11100: 0.4774; ventas ago–oct: 1095 u, contribución trimestral a costo de reposición $5,802,558. Efecto en ventas: hipótesis no verificada (sin datos de elasticidad)."
+    "fundamento": "Sube de $11100 a $11800 (+6.3%): margen nuevo 0.5084 ≥ 0.50. Costo de reposición $5800.86 (Frigorífico +18%: C02); margen a precio de carta $11100: 0.4774; ventas ago–oct: 1095 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $5,802,558. Ganamos: vuelve al mínimo sin retirarlo. Resignamos: posible baja de ventas por el aumento (hipótesis no verificada, sin datos de elasticidad)."
   },
   {
     "plato": "P14",
     "decision": "mantener",
     "precio_nuevo": 11100.0,
-    "fundamento": "Se mantiene: margen 0.6841 ≥ mínimo 0.50. Costo de reposición $3506.91 (Frigorífico +18%: C01); margen a precio de carta $11100: 0.6841; ventas ago–oct: 688 u, contribución trimestral a costo de reposición $5,224,046."
+    "fundamento": "Se mantiene: margen 0.6841 ≥ mínimo 0.50. Costo de reposición $3506.91 (Frigorífico +18%: C01); margen a precio de carta $11100: 0.6841; ventas ago–oct: 688 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $5,224,046. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P15",
     "decision": "mantener",
     "precio_nuevo": 6700.0,
-    "fundamento": "Se mantiene: margen 0.5948 ≥ mínimo 0.50. Costo de reposición $2714.56 (Frigorífico +18%: C01+C07); margen a precio de carta $6700: 0.5948; ventas ago–oct: 1475 u, contribución trimestral a costo de reposición $5,878,524."
+    "fundamento": "Se mantiene: margen 0.5948 ≥ mínimo 0.50. Costo de reposición $2714.56 (Frigorífico +18%: C01+C07); margen a precio de carta $6700: 0.5948; ventas ago–oct: 1475 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $5,878,524. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P16",
     "decision": "mantener",
     "precio_nuevo": 10800.0,
-    "fundamento": "Se mantiene: margen 0.6248 ≥ mínimo 0.50. Costo de reposición $4051.78 (Frigorífico +18%: C01+C02+C03); margen a precio de carta $10800: 0.6248; ventas ago–oct: 987 u, contribución trimestral a costo de reposición $6,660,493."
+    "fundamento": "Se mantiene: margen 0.6248 ≥ mínimo 0.50. Costo de reposición $4051.78 (Frigorífico +18%: C01+C02+C03); margen a precio de carta $10800: 0.6248; ventas ago–oct: 987 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $6,660,493. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P17",
     "decision": "mantener",
     "precio_nuevo": 11000.0,
-    "fundamento": "Se mantiene: margen 0.5562 ≥ mínimo 0.50. Costo de reposición $4882.27 (Frigorífico +18%: C04); margen a precio de carta $11000: 0.5562; ventas ago–oct: 571 u, contribución trimestral a costo de reposición $3,493,224."
+    "fundamento": "Se mantiene: margen 0.5562 ≥ mínimo 0.50. Costo de reposición $4882.27 (Frigorífico +18%: C04); margen a precio de carta $11000: 0.5562; ventas ago–oct: 571 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $3,493,224. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P18",
     "decision": "subir",
     "precio_nuevo": 5500.0,
-    "fundamento": "Sube de $5200 a $5500 (+5.8%): margen nuevo 0.5126 ≥ 0.50. Costo de reposición $2680.81 (Frigorífico +18%: C01+C05); margen a precio de carta $5200: 0.4845; ventas ago–oct: 1423 u, contribución trimestral a costo de reposición $3,584,807. Efecto en ventas: hipótesis no verificada (sin datos de elasticidad)."
+    "fundamento": "Sube de $5200 a $5500 (+5.8%): margen nuevo 0.5126 ≥ 0.50. Costo de reposición $2680.81 (Frigorífico +18%: C01+C05); margen a precio de carta $5200: 0.4845; ventas ago–oct: 1423 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $3,584,807. Ganamos: vuelve al mínimo sin retirarlo. Resignamos: posible baja de ventas por el aumento (hipótesis no verificada, sin datos de elasticidad)."
   },
   {
     "plato": "P19",
     "decision": "mantener",
     "precio_nuevo": 12800.0,
-    "fundamento": "Se mantiene: margen 0.6860 ≥ mínimo 0.50. Costo de reposición $4018.99 (Frigorífico +18%: C01); margen a precio de carta $12800: 0.6860; ventas ago–oct: 1693 u, contribución trimestral a costo de reposición $14,866,250."
+    "fundamento": "Se mantiene: margen 0.6860 ≥ mínimo 0.50. Costo de reposición $4018.99 (Frigorífico +18%: C01); margen a precio de carta $12800: 0.6860; ventas ago–oct: 1693 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $14,866,250. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P20",
     "decision": "mantener",
     "precio_nuevo": 7700.0,
-    "fundamento": "Se mantiene: margen 0.5993 ≥ mínimo 0.50. Costo de reposición $3085.52 (Frigorífico +18%: C06); margen a precio de carta $7700: 0.5993; ventas ago–oct: 1153 u, contribución trimestral a costo de reposición $5,320,495."
+    "fundamento": "Se mantiene: margen 0.5993 ≥ mínimo 0.50. Costo de reposición $3085.52 (Frigorífico +18%: C06); margen a precio de carta $7700: 0.5993; ventas ago–oct: 1153 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $5,320,495. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P21",
     "decision": "mantener",
     "precio_nuevo": 11700.0,
-    "fundamento": "Se mantiene: margen 0.6198 ≥ mínimo 0.50. Costo de reposición $4448.92 (Frigorífico +18%: C01+C02+C08); margen a precio de carta $11700: 0.6198; ventas ago–oct: 2116 u, contribución trimestral a costo de reposición $15,343,285."
+    "fundamento": "Se mantiene: margen 0.6198 ≥ mínimo 0.50. Costo de reposición $4448.92 (Frigorífico +18%: C01+C02+C08); margen a precio de carta $11700: 0.6198; ventas ago–oct: 2116 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $15,343,285. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P22",
     "decision": "mantener",
     "precio_nuevo": 9200.0,
-    "fundamento": "Se mantiene: margen 0.5517 ≥ mínimo 0.50. Costo de reposición $4124.41 (Frigorífico +18%: C03); margen a precio de carta $9200: 0.5517; ventas ago–oct: 1547 u, contribución trimestral a costo de reposición $7,851,938."
+    "fundamento": "Se mantiene: margen 0.5517 ≥ mínimo 0.50. Costo de reposición $4124.41 (Frigorífico +18%: C03); margen a precio de carta $9200: 0.5517; ventas ago–oct: 1547 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $7,851,938. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P23",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 1 de 10 entre los no protegidos por menor contribución. Costo de reposición $4309.83 (Frigorífico +18%: C01+C04); margen a precio de carta $8200: 0.4744; ventas ago–oct: 351 u, contribución trimestral a costo de reposición $1,365,450."
+    "fundamento": "Se retira: puesto 1 de 10 entre los no protegidos por menor contribución. Costo de reposición $4309.83 (Frigorífico +18%: C01+C04); margen a precio de carta $8200: 0.4744; ventas ago–oct: 351 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $1,365,450. Resignamos sus 351 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P24",
     "decision": "mantener",
     "precio_nuevo": 13800.0,
-    "fundamento": "Se mantiene: margen 0.6843 ≥ mínimo 0.50. Costo de reposición $4356.35 (Frigorífico +18%: C01+C05); margen a precio de carta $13800: 0.6843; ventas ago–oct: 1920 u, contribución trimestral a costo de reposición $18,131,808."
+    "fundamento": "Se mantiene: margen 0.6843 ≥ mínimo 0.50. Costo de reposición $4356.35 (Frigorífico +18%: C01+C05); margen a precio de carta $13800: 0.6843; ventas ago–oct: 1920 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $18,131,808. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P25",
     "decision": "mantener",
     "precio_nuevo": 18800.0,
-    "fundamento": "Se mantiene: margen 0.5807 ≥ mínimo 0.50. Costo de reposición $7883.21 (Frigorífico +18%: C01+C02); margen a precio de carta $18800: 0.5807; ventas ago–oct: 1426 u, contribución trimestral a costo de reposición $15,567,343. Protegido: plato de la casa."
+    "fundamento": "Se mantiene: margen 0.5807 ≥ mínimo 0.50. Costo de reposición $7883.21 (Frigorífico +18%: C01+C02); margen a precio de carta $18800: 0.5807; ventas ago–oct: 1426 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $15,567,343. Protegido: plato de la casa. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P26",
     "decision": "mantener",
     "precio_nuevo": 7100.0,
-    "fundamento": "Se mantiene: margen 0.6367 ≥ mínimo 0.50. Costo de reposición $2579.41 (Frigorífico +18%: C08); margen a precio de carta $7100: 0.6367; ventas ago–oct: 1523 u, contribución trimestral a costo de reposición $6,884,859."
+    "fundamento": "Se mantiene: margen 0.6367 ≥ mínimo 0.50. Costo de reposición $2579.41 (Frigorífico +18%: C08); margen a precio de carta $7100: 0.6367; ventas ago–oct: 1523 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $6,884,859. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P27",
     "decision": "mantener",
     "precio_nuevo": 6700.0,
-    "fundamento": "Se mantiene: margen 0.5719 ≥ mínimo 0.50. Costo de reposición $2868.07 (Frigorífico +18%: C05); margen a precio de carta $6700: 0.5719; ventas ago–oct: 1828 u, contribución trimestral a costo de reposición $7,004,768."
+    "fundamento": "Se mantiene: margen 0.5719 ≥ mínimo 0.50. Costo de reposición $2868.07 (Frigorífico +18%: C05); margen a precio de carta $6700: 0.5719; ventas ago–oct: 1828 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $7,004,768. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P28",
     "decision": "subir",
     "precio_nuevo": 6600.0,
-    "fundamento": "Sube de $6200 a $6600 (+6.5%): margen nuevo 0.5097 ≥ 0.50. Costo de reposición $3236.23 (Frigorífico +18%: C01+C03); margen a precio de carta $6200: 0.4780; ventas ago–oct: 1375 u, contribución trimestral a costo de reposición $4,075,184. Efecto en ventas: hipótesis no verificada (sin datos de elasticidad)."
+    "fundamento": "Sube de $6200 a $6600 (+6.5%): margen nuevo 0.5097 ≥ 0.50. Costo de reposición $3236.23 (Frigorífico +18%: C01+C03); margen a precio de carta $6200: 0.4780; ventas ago–oct: 1375 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $4,075,184. Ganamos: vuelve al mínimo sin retirarlo. Resignamos: posible baja de ventas por el aumento (hipótesis no verificada, sin datos de elasticidad)."
   },
   {
     "plato": "P29",
     "decision": "mantener",
     "precio_nuevo": 12000.0,
-    "fundamento": "Se mantiene: margen 0.6760 ≥ mínimo 0.50. Costo de reposición $3887.95 (Frigorífico +18%: C01+C02); margen a precio de carta $12000: 0.6760; ventas ago–oct: 2104 u, contribución trimestral a costo de reposición $17,067,753."
+    "fundamento": "Se mantiene: margen 0.6760 ≥ mínimo 0.50. Costo de reposición $3887.95 (Frigorífico +18%: C01+C02); margen a precio de carta $12000: 0.6760; ventas ago–oct: 2104 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $17,067,753. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P30",
     "decision": "mantener",
     "precio_nuevo": 11400.0,
-    "fundamento": "Se mantiene: margen 0.5997 ≥ mínimo 0.50. Costo de reposición $4562.88 (Frigorífico +18%: C01+C08); margen a precio de carta $11400: 0.5997; ventas ago–oct: 1690 u, contribución trimestral a costo de reposición $11,554,733."
+    "fundamento": "Se mantiene: margen 0.5997 ≥ mínimo 0.50. Costo de reposición $4562.88 (Frigorífico +18%: C01+C08); margen a precio de carta $11400: 0.5997; ventas ago–oct: 1690 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $11,554,733. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P31",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 6 de 10 entre los no protegidos por menor contribución. Costo de reposición $2849.75 (Frigorífico +18%: C01+C06); margen a precio de carta $7700: 0.6299; ventas ago–oct: 497 u, contribución trimestral a costo de reposición $2,410,574."
+    "fundamento": "Se retira: puesto 6 de 10 entre los no protegidos por menor contribución. Costo de reposición $2849.75 (Frigorífico +18%: C01+C06); margen a precio de carta $7700: 0.6299; ventas ago–oct: 497 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $2,410,574. Resignamos sus 497 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P32",
     "decision": "mantener",
     "precio_nuevo": 13600.0,
-    "fundamento": "Se mantiene: margen 0.5504 ≥ mínimo 0.50. Costo de reposición $6114.76 (Frigorífico +18%: C02); margen a precio de carta $13600: 0.5504; ventas ago–oct: 1375 u, contribución trimestral a costo de reposición $10,292,205."
+    "fundamento": "Se mantiene: margen 0.5504 ≥ mínimo 0.50. Costo de reposición $6114.76 (Frigorífico +18%: C02); margen a precio de carta $13600: 0.5504; ventas ago–oct: 1375 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $10,292,205. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P33",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 8 de 10 entre los no protegidos por menor contribución. Costo de reposición $4425.70 (Frigorífico +18%: C04); margen a precio de carta $8300: 0.4668; ventas ago–oct: 832 u, contribución trimestral a costo de reposición $3,223,418."
+    "fundamento": "Se retira: puesto 8 de 10 entre los no protegidos por menor contribución. Costo de reposición $4425.70 (Frigorífico +18%: C04); margen a precio de carta $8300: 0.4668; ventas ago–oct: 832 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $3,223,418. Resignamos sus 832 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P34",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 7 de 10 entre los no protegidos por menor contribución. Costo de reposición $3480.71 (Frigorífico +18%: C01); margen a precio de carta $11200: 0.6892; ventas ago–oct: 366 u, contribución trimestral a costo de reposición $2,825,260."
+    "fundamento": "Se retira: puesto 7 de 10 entre los no protegidos por menor contribución. Costo de reposición $3480.71 (Frigorífico +18%: C01); margen a precio de carta $11200: 0.6892; ventas ago–oct: 366 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $2,825,260. Resignamos sus 366 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P35",
     "decision": "mantener",
     "precio_nuevo": 16000.0,
-    "fundamento": "Se mantiene: margen 0.5888 ≥ mínimo 0.50. Costo de reposición $6578.51 (Frigorífico +18%: C02); margen a precio de carta $16000: 0.5888; ventas ago–oct: 1175 u, contribución trimestral a costo de reposición $11,070,251."
+    "fundamento": "Se mantiene: margen 0.5888 ≥ mínimo 0.50. Costo de reposición $6578.51 (Frigorífico +18%: C02); margen a precio de carta $16000: 0.5888; ventas ago–oct: 1175 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $11,070,251. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P36",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 10 de 10 entre los no protegidos por menor contribución. Costo de reposición $3086.87 (Frigorífico +18%: C07); margen a precio de carta $8400: 0.6325; ventas ago–oct: 649 u, contribución trimestral a costo de reposición $3,448,221."
+    "fundamento": "Se retira: puesto 10 de 10 entre los no protegidos por menor contribución. Costo de reposición $3086.87 (Frigorífico +18%: C07); margen a precio de carta $8400: 0.6325; ventas ago–oct: 649 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $3,448,221. Resignamos sus 649 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P37",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 3 de 10 entre los no protegidos por menor contribución. Costo de reposición $3601.85 (Frigorífico +18%: C01); margen a precio de carta $8100: 0.5553; ventas ago–oct: 331 u, contribución trimestral a costo de reposición $1,488,888."
+    "fundamento": "Se retira: puesto 3 de 10 entre los no protegidos por menor contribución. Costo de reposición $3601.85 (Frigorífico +18%: C01); margen a precio de carta $8100: 0.5553; ventas ago–oct: 331 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $1,488,888. Resignamos sus 331 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P38",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 9 de 10 entre los no protegidos por menor contribución. Costo de reposición $3538.56 (Frigorífico +18%: C01); margen a precio de carta $6800: 0.4796; ventas ago–oct: 1057 u, contribución trimestral a costo de reposición $3,447,342."
+    "fundamento": "Se retira: puesto 9 de 10 entre los no protegidos por menor contribución. Costo de reposición $3538.56 (Frigorífico +18%: C01); margen a precio de carta $6800: 0.4796; ventas ago–oct: 1057 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $3,447,342. Resignamos sus 1057 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P39",
     "decision": "mantener",
     "precio_nuevo": 12300.0,
-    "fundamento": "Se mantiene: margen 0.6795 ≥ mínimo 0.50. Costo de reposición $3942.00 (Frigorífico +18%: C01+C03); margen a precio de carta $12300: 0.6795; ventas ago–oct: 610 u, contribución trimestral a costo de reposición $5,098,380."
+    "fundamento": "Se mantiene: margen 0.6795 ≥ mínimo 0.50. Costo de reposición $3942.00 (Frigorífico +18%: C01+C03); margen a precio de carta $12300: 0.6795; ventas ago–oct: 610 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $5,098,380. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P40",
     "decision": "mantener",
     "precio_nuevo": 12500.0,
-    "fundamento": "Se mantiene: margen 0.5873 ≥ mínimo 0.50. Costo de reposición $5159.23 (Frigorífico +18%: C01+C02+C05); margen a precio de carta $12500: 0.5873; ventas ago–oct: 1439 u, contribución trimestral a costo de reposición $10,563,368."
+    "fundamento": "Se mantiene: margen 0.5873 ≥ mínimo 0.50. Costo de reposición $5159.23 (Frigorífico +18%: C01+C02+C05); margen a precio de carta $12500: 0.5873; ventas ago–oct: 1439 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $10,563,368. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P41",
     "decision": "mantener",
     "precio_nuevo": 9700.0,
-    "fundamento": "Se mantiene: margen 0.6341 ≥ mínimo 0.50. Costo de reposición $3549.65 (Frigorífico +18%: C06); margen a precio de carta $9700: 0.6341; ventas ago–oct: 942 u, contribución trimestral a costo de reposición $5,793,630."
+    "fundamento": "Se mantiene: margen 0.6341 ≥ mínimo 0.50. Costo de reposición $3549.65 (Frigorífico +18%: C06); margen a precio de carta $9700: 0.6341; ventas ago–oct: 942 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $5,793,630. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P42",
     "decision": "subir",
     "precio_nuevo": 5500.0,
-    "fundamento": "Sube de $5300 a $5500 (+3.8%): margen nuevo 0.5077 ≥ 0.50. Costo de reposición $2707.62 (Frigorífico +18%: C01+C05); margen a precio de carta $5300: 0.4891; ventas ago–oct: 1385 u, contribución trimestral a costo de reposición $3,590,446. Efecto en ventas: hipótesis no verificada (sin datos de elasticidad)."
+    "fundamento": "Sube de $5300 a $5500 (+3.8%): margen nuevo 0.5077 ≥ 0.50. Costo de reposición $2707.62 (Frigorífico +18%: C01+C05); margen a precio de carta $5300: 0.4891; ventas ago–oct: 1385 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $3,590,446. Ganamos: vuelve al mínimo sin retirarlo. Resignamos: posible baja de ventas por el aumento (hipótesis no verificada, sin datos de elasticidad)."
   },
   {
     "plato": "P43",
     "decision": "subir",
     "precio_nuevo": 5800.0,
-    "fundamento": "Sube de $5600 a $5800 (+3.6%): margen nuevo 0.5130 ≥ 0.50. Costo de reposición $2824.59 (Frigorífico +18%: C08); margen a precio de carta $5600: 0.4956; ventas ago–oct: 1299 u, contribución trimestral a costo de reposición $3,605,258. Efecto en ventas: hipótesis no verificada (sin datos de elasticidad)."
+    "fundamento": "Sube de $5600 a $5800 (+3.6%): margen nuevo 0.5130 ≥ 0.50. Costo de reposición $2824.59 (Frigorífico +18%: C08); margen a precio de carta $5600: 0.4956; ventas ago–oct: 1299 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $3,605,258. Ganamos: vuelve al mínimo sin retirarlo. Resignamos: posible baja de ventas por el aumento (hipótesis no verificada, sin datos de elasticidad)."
   },
   {
     "plato": "P44",
     "decision": "mantener",
     "precio_nuevo": 12800.0,
-    "fundamento": "Se mantiene: margen 0.6822 ≥ mínimo 0.50. Costo de reposición $4067.95 (Frigorífico +18%: C04); margen a precio de carta $12800: 0.6822; ventas ago–oct: 786 u, contribución trimestral a costo de reposición $6,863,391."
+    "fundamento": "Se mantiene: margen 0.6822 ≥ mínimo 0.50. Costo de reposición $4067.95 (Frigorífico +18%: C04); margen a precio de carta $12800: 0.6822; ventas ago–oct: 786 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $6,863,391. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P45",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 5 de 10 entre los no protegidos por menor contribución. Costo de reposición $3366.01 (Frigorífico +18%: C01); margen a precio de carta $8400: 0.5993; ventas ago–oct: 336 u, contribución trimestral a costo de reposición $1,691,421."
+    "fundamento": "Se retira: puesto 5 de 10 entre los no protegidos por menor contribución. Costo de reposición $3366.01 (Frigorífico +18%: C01); margen a precio de carta $8400: 0.5993; ventas ago–oct: 336 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $1,691,421. Resignamos sus 336 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P46",
     "decision": "mantener",
     "precio_nuevo": 17600.0,
-    "fundamento": "Se mantiene: margen 0.6153 ≥ mínimo 0.50. Costo de reposición $6769.99 (Frigorífico +18%: C02); margen a precio de carta $17600: 0.6153; ventas ago–oct: 1175 u, contribución trimestral a costo de reposición $12,725,262."
+    "fundamento": "Se mantiene: margen 0.6153 ≥ mínimo 0.50. Costo de reposición $6769.99 (Frigorífico +18%: C02); margen a precio de carta $17600: 0.6153; ventas ago–oct: 1175 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $12,725,262. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P47",
     "decision": "sacar",
     "precio_nuevo": null,
-    "fundamento": "Se retira: puesto 2 de 10 entre los no protegidos por menor contribución. Costo de reposición $4352.93 (Frigorífico +18%: C01+C04); margen a precio de carta $8300: 0.4756; ventas ago–oct: 362 u, contribución trimestral a costo de reposición $1,428,839."
+    "fundamento": "Se retira: puesto 2 de 10 entre los no protegidos por menor contribución. Costo de reposición $4352.93 (Frigorífico +18%: C01+C04); margen a precio de carta $8300: 0.4756; ventas ago–oct: 362 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $1,428,839. Resignamos sus 362 u del trimestre (no sabemos cuántos clientes pasan a otro plato: hipótesis); ganamos una carta más corta sin bajar del mínimo y sin perder subrecetas ni alternativas por alérgeno."
   },
   {
     "plato": "P48",
     "decision": "mantener",
     "precio_nuevo": 1800.0,
-    "fundamento": "Se mantiene: margen 0.5543 ≥ mínimo 0.50. Costo de reposición $802.30 (Frigorífico +18%: no usa); margen a precio de carta $1800: 0.5543; ventas ago–oct: 1518 u, contribución trimestral a costo de reposición $1,514,509. Protegido: única opción vegetariana."
+    "fundamento": "Se mantiene: margen 0.5543 ≥ mínimo 0.50. Costo de reposición $802.30 (Frigorífico +18%: no usa); margen a precio de carta $1800: 0.5543; ventas ago–oct: 1518 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $1,514,509. Protegido: única opción vegetariana. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P49",
     "decision": "mantener",
     "precio_nuevo": 7200.0,
-    "fundamento": "Se mantiene: margen 0.6382 ≥ mínimo 0.50. Costo de reposición $2605.20 (Frigorífico +18%: C08); margen a precio de carta $7200: 0.6382; ventas ago–oct: 1479 u, contribución trimestral a costo de reposición $6,795,709."
+    "fundamento": "Se mantiene: margen 0.6382 ≥ mínimo 0.50. Costo de reposición $2605.20 (Frigorífico +18%: C08); margen a precio de carta $7200: 0.6382; ventas ago–oct: 1479 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $6,795,709. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   },
   {
     "plato": "P50",
     "decision": "mantener",
     "precio_nuevo": 11300.0,
-    "fundamento": "Se mantiene: margen 0.5890 ≥ mínimo 0.50. Costo de reposición $4644.24 (Frigorífico +18%: C04); margen a precio de carta $11300: 0.5890; ventas ago–oct: 558 u, contribución trimestral a costo de reposición $3,713,914. Protegido: única opción sin TACC."
+    "fundamento": "Se mantiene: margen 0.5890 ≥ mínimo 0.50. Costo de reposición $4644.24 (Frigorífico +18%: C04); margen a precio de carta $11300: 0.5890; ventas ago–oct: 558 u, contribución recalculada (no realizada) de esas ventas a costo de reposición $3,713,914. Protegido: única opción sin TACC. Ganamos: sigue su aporte sin tocar el precio. Resignamos: absorbe el +18% con menos margen que antes del aviso."
   }
 ]
