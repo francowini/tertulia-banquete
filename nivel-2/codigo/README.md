@@ -1,9 +1,9 @@
 # Nivel 2 · Costeo de la carta completa
 
-Programa: `costeo.py` (Python 3, solo librería estándar + `pdftotext` de poppler para leer los PDF).
+Programa: `costeo.py`. Usa Python 3 con la librería estándar y, para leer los PDF, `pdftotext` de poppler: es una herramienta externa del sistema y no se incluye en el repo.
 
 ```
-python3 -I costeo.py <material> 2026-10-31 ../costos.csv precios_usados.csv
+python3 -I costeo.py <material> 2026-10-31 ../costos.csv precios_usados.csv desglose.csv
 ```
 
 ## Entradas (en `<material>`, el zip del nivel 2)
@@ -14,7 +14,7 @@ python3 -I costeo.py <material> 2026-10-31 ../costos.csv precios_usados.csv
 - `notas/NC-001…NC-004.pdf`: notas de crédito que ajustan una factura y un renglón.
 
 ## Cálculo
-1. **Precio por producto** (`precios`): se toma el renglón de la última factura con fecha ≤ 31/10/2026; si hay empate de fecha, el identificador de factura mayor.
+1. **Precio por producto** (`precios`): se toma el renglón de la última factura con fecha ≤ 31/10/2026. Si hay empate de fecha, gana el identificador de factura alfanuméricamente mayor (comparación de texto, `F-040` > `F-039`). Se usa el **neto impreso** del renglón, que ya incluye la bonificación por cantidad: 8 % sobre toda la línea si se compran 4 o más presentaciones, o desde 2000 en g/ml. El programa además verifica que neto = cantidad × precio × (1 − bonif.).
 2. **Notas** emitidas hasta la fecha de costeo que apuntan a ese documento y renglón:
    - una *bonificación* resta importe y deja igual la cantidad;
    - una *devolución* resta importe y unidades (convertidas con el catálogo).
@@ -26,4 +26,5 @@ python3 -I costeo.py <material> 2026-10-31 ../costos.csv precios_usados.csv
 6. **Sin redondeos intermedios** (Decimal exacto). El costo por porción se redondea a 2 decimales, con la mitad hacia arriba. Las subrecetas no se escriben como filas.
 
 ## Trazabilidad
-`precios_usados.csv` muestra, para cada producto, de dónde sale su número: la factura, la fecha y el renglón, el neto ajustado, la cantidad en unidad base, las notas aplicadas y el precio por unidad base.
+- `desglose.csv` muestra, para cada plato y cada subreceta, cada componente con su estado, la cantidad de receta, la cantidad bruta, el precio unitario (de producto o de subreceta) y el subtotal. La suma de los subtotales de un plato da su costo por porción.
+- `precios_usados.csv` muestra, para cada producto, de dónde sale su número: la factura, la fecha y el renglón, el neto ajustado, la cantidad en unidad base, las notas aplicadas y el precio por unidad base.

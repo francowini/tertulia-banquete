@@ -1,6 +1,6 @@
 """Costeo de la carta de El Término Medio (nivel 2).
 
-Uso: python3 -I costeo.py <dir_material> <fecha YYYY-MM-DD> <salida.csv> [traza.csv]
+Uso: python3 -I costeo.py <dir_material> <fecha YYYY-MM-DD> <salida.csv> [precios_usados.csv] [desglose.csv]
 Entradas en <dir_material>: recetas.json, catalogo.csv, rendimientos.csv,
 facturas/*.pdf|*.txt y notas/*.pdf|*.txt (PDF se lee con `pdftotext -layout`).
 """
@@ -92,6 +92,22 @@ def precios(cat, renglones, notas, fecha):
                         cantidad_base=eq, notas='+'.join(aplicadas), precio_base=precio[p])
     return precio, traza
 
+def desglose(cod, recetas, rend, precio):
+    """Filas de trazabilidad de un plato: cada ingrediente o subreceta con su cantidad bruta, precio y subtotal."""
+    filas = []
+    for ing in recetas[cod]['ingredientes']:
+        p, q, est = ing['producto'], D(str(ing['cantidad'])), ing['estado']
+        if p in recetas:
+            unit = costo(p, recetas, rend, precio) / D(str(recetas[p]['rendimiento']))
+            filas.append(dict(plato=cod, componente=p, tipo='subreceta', estado=est, cantidad_receta=q,
+                              cantidad_bruta=q, precio_unitario=unit, subtotal=unit * q))
+        else:
+            lb, cl = rend[p]
+            bruto = {'bruto': q, 'limpio': q / lb, 'cocido': q / (lb * cl)}[est]
+            filas.append(dict(plato=cod, componente=p, tipo='producto', estado=est, cantidad_receta=q,
+                              cantidad_bruta=bruto, precio_unitario=precio[p], subtotal=bruto * precio[p]))
+    return filas
+
 def costo(cod, recetas, rend, precio, memo=None):
     """Costo total de una receta (su rendimiento declarado). Subrecetas: costo de tanda / rendimiento * cantidad."""
     memo = {} if memo is None else memo
@@ -119,6 +135,13 @@ if __name__ == '__main__':
             if r['unidad_rendimiento'] != 'porción': continue   # las subrecetas no son platos
             c = costo(cod, recetas, rend, precio) / D(str(r['rendimiento']))
             w.writerow([cod, str(c.quantize(D('0.01'), rounding=ROUND_HALF_UP))])
+    if len(sys.argv) > 5:  # desglose por plato: de dónde sale cada costo
+        with open(sys.argv[5], 'w', encoding='utf-8', newline='') as fh:
+            campos = ['plato', 'componente', 'tipo', 'estado', 'cantidad_receta', 'cantidad_bruta', 'precio_unitario', 'subtotal']
+            w = csv.DictWriter(fh, fieldnames=campos, lineterminator='\n'); w.writeheader()
+            for cod, r in recetas.items():
+                for f in desglose(cod, recetas, rend, precio):
+                    w.writerow({k: (f'{v:.6f}' if isinstance(v, D) else v) for k, v in f.items()})
     if len(sys.argv) > 4:
         with open(sys.argv[4], 'w', encoding='utf-8', newline='') as fh:
             w = csv.DictWriter(fh, fieldnames=list(next(iter(traza.values())).keys()), lineterminator='\n'); w.writeheader()
