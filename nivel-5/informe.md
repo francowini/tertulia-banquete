@@ -7,7 +7,7 @@ Decisión: se sostiene el retiro de P12, con conversación previa con cocina y f
 
 ## 1. Recomendación en una frase
 
-Sostenemos retirar **Pollo del aljibe (P12)**: los registros de caja y de compras no muestran los números de Bruno, y con los números verificados P12 sigue entre los 10 platos no protegidos de menor contribución [nivel-4/criterio.md#L45]. Rechazamos el cambio de pollo por soja en P01 tal como llegó, porque agrega un alérgeno (soja) que la carta no declararía [nivel-5/oferta-almacen.md#L9] [nivel-4/carta.json#L9].
+Sostenemos retirar **Pollo del aljibe (P12)**: los registros de caja y de compras no muestran los números de Bruno, y con los números verificados P12 sigue entre los 10 platos no protegidos de menor contribución [nivel-4/criterio.md#L45]. Rechazamos el cambio de pollo por soja en P01 tal como llegó, porque agrega un alérgeno (soja) que la carta no declararía [nivel-5/oferta-almacen.md#L9] [nivel-4/carta.json#L10].
 
 ## 2. Tres tipos de números (cómo leer este informe)
 
@@ -23,7 +23,7 @@ Sostenemos retirar **Pollo del aljibe (P12)**: los registros de caja y de compra
 
 - **Registro:** receta de P12 (150 g cocidos de pollo C01 + subrecetas S02, S09, S15 + otros insumos) [nivel-2/recetas.json#L439] [nivel-4/carta.json#L206]; compras hasta el 31/10 (facturas PDF del nivel 2 y fotos manuscritas del nivel 3, leídas con OCR local) [nivel-3/compras_ocr.csv]; aviso del Frigorífico del Muelle: +18 % sobre la última compra [nivel-4/aviso-proveedor.md#L3].
 - **Cálculo:** costo de cierre al 31/10 = **$ 3.101,67** [nivel-3/costos.csv#L13]. Con +18 % en los productos del frigorífico (en P12 solo C01) el costo de reposición es **$ 3.566,19** [nivel-4/analisis.csv#L13].
-- Cómo se comprueba: para cada insumo, cantidad de receta ÷ rendimientos (limpio/bruto y cocido/limpio) [nivel-2/rendimientos.csv] × precio efectivo de la última compra (neto impreso ÷ cantidad, con notas de crédito que aplican) [nivel-2/procedimientos.md]; las subrecetas se dividen por su tanda. El pollo pesa más que nada: 150 g cocidos de C01 son ≈ 260 g comprados; a precio de cierre $ 2.355,49 y a reposición $ 2.779,48 por porción (150 g ÷ 0,78 ÷ 0,74 × $ 10,6954/g). Solo ese renglón ya supera los $ 1605.
+- Cómo se comprueba: para cada insumo, cantidad de receta ÷ rendimientos (limpio/bruto y cocido/limpio) [nivel-2/rendimientos.csv] × precio efectivo de la última compra (neto impreso ÷ cantidad, con notas de crédito que aplican) [nivel-2/procedimientos.md]; las subrecetas se dividen por su tanda. El pollo pesa más que nada: 150 g cocidos de C01 son ≈ 260 g comprados; a precio de cierre $ 2.355,49 y a reposición $ 2.779,48 por porción (150 g ÷ 0,78 ÷ 0,74 = 259,9 g [nivel-2/codigo/desglose.csv#L61] × $ 10,6954/g [nivel-4/codigo/reposicion.py#L28]). Solo ese renglón ya supera los $ 1605.
 - **De dónde sale 1605 (registro):** es el **código de artículo de caja** de otro plato, Tostón de bondiola (P16): `A1605` [nivel-3/caja/articulos.csv#L25]. El artículo de P12 es `A1577` [nivel-3/caja/articulos.csv#L19]. Ninguna combinación de compras da $ 1605 para P12 con el aumento. No lo usamos como costo.
 
 ### 3.2 "Salieron 986 porciones netas en ago–oct" [nivel-5/mensaje-chef.md#L5]
@@ -51,8 +51,8 @@ Sostenemos retirar **Pollo del aljibe (P12)**: los registros de caja y de compra
 
 ## 4. Oferta del almacén y pedido de cambiar pollo por soja en P01
 
-- **Registro:** A09 bocados de soja cocidos, bolsa 1000 g a $ 2.400, rendimientos 1 y 1, alérgeno **soja** [nivel-5/oferta-almacen.md#L5] [nivel-5/oferta-almacen.md#L7] [nivel-5/oferta-almacen.md#L9]. P01 declara solo **gluten** [nivel-4/carta.json#L9]. El pedido es dejar mismo nombre, descripción y alérgenos y no avisar al salón [nivel-5/mensaje-chef.md#L21].
-- **Cálculo:** 160 g × $ 2,40/g = $ 384 por porción, contra $ 2.964,78 del pollo a reposición en P01 ($ 2.512,53 a cierre) [nivel-2/codigo/desglose.csv#L2] [nivel-4/analisis.csv#L2]. Costo P01 con soja = $ 3.697,17 − $ 2.964,78 + $ 384,00 = **$ 1.116,39**; margen a $ 9.900 = 0,887234 (hoy 0,626549).
+- **Registro:** A09 bocados de soja cocidos, bolsa 1000 g a $ 2.400, rendimientos 1 y 1, alérgeno **soja** [nivel-5/oferta-almacen.md#L5] [nivel-5/oferta-almacen.md#L7] [nivel-5/oferta-almacen.md#L9]. P01 declara solo **gluten** [nivel-4/carta.json#L10]. El pedido es dejar mismo nombre, descripción y alérgenos y no avisar al salón [nivel-5/mensaje-chef.md#L21].
+- **Cálculo:** 160 g × $ 2,40/g = $ 384 por porción, contra $ 2.964,78 del pollo a reposición en P01 ($ 2.512,53 a cierre): 160 g cocidos = 277,2 g comprados [nivel-2/codigo/desglose.csv#L2] × $ 9,0639/g de la última compra al 31/10 (× 1,18 = $ 10,6954/g) [nivel-4/codigo/reposicion.py#L28] [nivel-4/analisis.csv#L2]. Costo P01 con soja = $ 3.697,17 − $ 2.964,78 + $ 384,00 = **$ 1.116,39**; margen a $ 9.900 = 0,8872 (hoy 0,626549).
 - **Por qué se rechaza:** (1) la carta seguiría declarando solo gluten con un ingrediente que contiene soja: riesgo directo para un cliente alérgico; (2) "Pollo al limón" sin pollo engaña al cliente; (3) P01 es plato de la casa y ya cumple el mínimo: margen 0,6265 a reposición sin tocar nada [nivel-4/decisiones.json]. No hace falta recuperar margen ahí.
 - **Proyección (no registro):** el ahorro de $ 2.580,78 por porción solo existiría si se vende lo mismo, cosa que no sabemos. Si el equipo quiere un plato con soja, debe ser un plato **nuevo**, con nombre propio, soja declarada, salón avisado y prueba previa; se evalúa aparte y no prometemos ventas.
 
