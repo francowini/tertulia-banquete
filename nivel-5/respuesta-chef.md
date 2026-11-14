@@ -1,6 +1,6 @@
-# Respuesta a Bruno
-
 Sustitución propuesta: rechazada
+
+# Respuesta a Bruno
 
 Bruno:
 

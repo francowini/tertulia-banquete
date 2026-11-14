@@ -1,8 +1,9 @@
-# Informe para Mora · Revisión del retiro de P12 y oferta de soja
-
 Plato revisado: P12
 Sustitución propuesta: rechazada
-Decisión: se sostiene el retiro de P12, con conversación previa con cocina y fecha de revisión
+
+# Informe para Mora · Revisión del retiro de P12 y oferta de soja
+
+Decisión: se sostiene el retiro de P12, con conversación previa con cocina y fecha de revisión.
 
 ## 1. Recomendación en una frase
 
