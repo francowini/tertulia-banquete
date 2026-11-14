@@ -6,7 +6,7 @@ Programa: `costeo.py`. Usa Python 3 con la librería estándar y, para leer los 
 python3 -I costeo.py <material> 2026-10-31 ../costos.csv precios_usados.csv desglose.csv
 ```
 
-## Entradas (en `<material>`, el zip del nivel 2)
+## Entradas (`<material>` = carpeta `archivos/nivel-2` del zip del nivel 2)
 - `recetas.json`: 50 platos (rendimiento 1 porción) y 15 subrecetas S01–S15 (rendimiento = tamaño de tanda en g o ml). Hay subrecetas que usan otras subrecetas (S06→S05→S04, S14→S13→S01/S02, etc.).
 - `catalogo.csv`: equivalencia de cada presentación de compra de cada producto en g, ml o unidades.
 - `rendimientos.csv`: coeficientes limpio/bruto y cocido/limpio por producto.

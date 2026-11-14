@@ -23,7 +23,7 @@ COLUMNAS = {'Cant.': 'cantidad', 'Cantidad': 'cantidad', 'Unidad': 'presentacion
 def orden_columnas(t):
     """Cada proveedor ordena distinto las columnas: se lee el orden desde el encabezado de la tabla."""
     for line in t.splitlines():
-        if 'descripción' in line or 'Producto' in line and 'Neto' in line:
+        if ('descripción' in line) or ('Producto' in line and 'Neto' in line):
             cab = line.split('|') if '|' in line else re.split(r'\s{2,}', line.strip())
             cols = [COLUMNAS[c.strip()] for c in cab if c.strip() in COLUMNAS]
             if len(cols) == 5: return cols
