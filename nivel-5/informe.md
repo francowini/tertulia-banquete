@@ -27,9 +27,9 @@ Sostenemos retirar **Pollo del aljibe (P12)**: los registros de caja y de compra
 
 ### 3.2 "Salieron 986 porciones netas en ago–oct" [nivel-5/mensaje-chef.md#L5]
 
-- **Registro:** caja de agosto, septiembre y octubre [nivel-3/caja/2026-08.csv] [nivel-3/caja/2026-09.csv] [nivel-3/caja/2026-10.csv], con las reglas del manual de caja [nivel-3/manual.md]: ventas (VTA) menos reversiones (REV), propinas (EXT) fuera, componentes de combos sí cuentan.
+- **Registro:** caja de agosto, septiembre y octubre [nivel-3/caja/2026-08.csv] [nivel-3/caja/2026-09.csv] [nivel-3/caja/2026-10.csv], con las reglas del manual de caja [nivel-3/caja/manual.md]: ventas (VTA) menos reversiones (REV), propinas (EXT) fuera, componentes de combos sí cuentan.
 - **Cálculo:** **343 unidades netas** de P12, ingreso neto **$ 2.477.280,00**, margen histórico 0,679097 [nivel-3/margenes.csv#L13]. Este cálculo fue reproducido por un recálculo independiente con otro script (50/50 idéntico).
-- **Cálculo de control:** P12 (A1577) tiene 441 unidades vendidas (VTA) − 98 revertidas (REV) = 343; no está en ningún combo [nivel-3/combos.csv]. Ni sumando reversiones se llega a 986 (daría 539).
+- **Cálculo de control:** P12 (A1577) tiene 441 unidades vendidas (VTA) − 98 revertidas (REV) = 343; no está en ningún combo [nivel-3/caja/combos.csv]. Ni sumando reversiones se llega a 986 (daría 539).
 - **De dónde sale 986 (registro + cálculo):** coincide casi exacto con las ventas netas de **P16 Tostón de bondiola**, 987 unidades (1290 VTA − 303 REV) [nivel-3/margenes.csv#L17]. Los dos números de Bruno parecen leídos de la fila del artículo A1605 / P16, no de P12. Lo revisamos con él mirando la planilla juntos (próximo paso 1).
 
 ### 3.3 "Con ese costo y esas ventas no hay razón económica para sacarlo"
